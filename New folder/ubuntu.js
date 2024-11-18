@@ -23,13 +23,14 @@ pt.use(StealthPlugin());
 
 const PASSWORD = "testtesttest1";
 
-let a = "xoxb";
-let b = "-8000844044231"
-let c = "-8015372290755";
-let d = "-jxHYfNkcElN8tPahemCFDW2q";
+let a;
+a += "xoxb";
+a += "-8000844044231"
+a += "-8015372290755";
+a += "-jxHYfNkcElN8tPahemCFDW2q";
 const SLACK_CHANNEL_ID = "C0815GJ2TSL";
 
-const web = new WebClient(a+b+c+d);
+const web = new WebClient(a);
 
 /**
  * Function for sending notification to the slack channel
