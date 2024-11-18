@@ -23,7 +23,7 @@ pt.use(StealthPlugin());
 
 const PASSWORD = "testtesttest1";
 
-let a;
+let a = "";
 a += "xoxb";
 a += "-8000844044231"
 a += "-8015372290755";
